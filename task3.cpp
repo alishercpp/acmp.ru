@@ -1,3 +1,5 @@
+// author: Ali
+// date: 19/09/2023
 #include <bits/stdc++.h>
 
 int main () {
