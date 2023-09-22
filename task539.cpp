@@ -5,6 +5,9 @@
 int main() {
     int n;
     std::cin >> n;
-    n % 2 == 0 ? std::cout << n / 2 : std::cout << n;
+    if ( n == 1 ) std::cout << 0;
+    else {
+        n % 2 == 0 ? std::cout << n / 2 : std::cout << n;
+    }
     return 0;
 }
