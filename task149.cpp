@@ -7,14 +7,14 @@ int main () {
     int n, e;
     std::cin >> n;
     std::vector<int>::iterator p;
-    std::vector<int> a[n];
+    std::vector<int> a;
     for (int i = 0; i < n; ++i) {
         std::cin >> e;
-        a->push_back(e);
+        a.push_back(e);
     }
-    std::reverse(a->begin(), a->end());
+    std::reverse(a.begin(), a.end());
 
-    for (p = a->begin(); p < a->end(); p++) {
+    for (p = a.begin(); p < a.end(); p++) {
         std::cout << *p << " ";
     }
     return 0;
